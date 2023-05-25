@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/home.css";
 
-export const Registro = () => {
+export const Acceso = () => {
   const { store, actions } = useContext(Context);
 
   return (
@@ -31,13 +31,9 @@ export const Registro = () => {
                 className="form-control"
                 id="exampleInputPassword1"
               />
-			  <div id="passwordHelp" className="form-text">
-                Debe tener entre 5 y 8 caracteres. 
             </div>
-            </div>
-            
             <button type="submit" className="input btn btn-primary">
-              Registrarme
+            Acceder
             </button>
           </form>
         </div>
